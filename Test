@@ -1,1 +1,20 @@
 #this is test
+import string
+f = open(f = open("C:\\Python27\\target.txt","r")
+lines= [] 
+
+for paragraph in f:
+
+    lines = string.split(paragraph, ".")
+
+    for each_line in lines:
+
+        if each_line.find(" get ") > 0:
+
+            print each_line
+
+        else:
+
+            pass
+
+
